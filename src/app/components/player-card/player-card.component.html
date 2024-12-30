@@ -1,0 +1,20 @@
+<div *ngIf="index === 0" class="crown-icon-div">
+  <img class="crown-icon" src="/assets/crown.png" alt="Crown" />
+</div>
+<mat-card class="player-card" appearance="outlined">
+    <mat-card-header>
+        <div mat-card-avatar class="header-image" [style.background-image]="'url(' + player?.avatarUrl + ')'"></div>
+      <mat-card-title> <span style="font-size: large; font-weight: bold">{{player?.name}} </span></mat-card-title>
+      <mat-card-subtitle> {{player?.id}}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <p>Time played: {{player?.timePlayed}}</p>
+        <p>Games played: {{player?.gamesPlayed}}</p>
+        <p>Wins: {{player?.gamesWon}}</p>
+        <p>Losses: {{player?.gamesLost}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="button-card"> Give a star </button>
+      <button class="button-card"> Send a msg </button>
+    </mat-card-actions>
+  </mat-card>

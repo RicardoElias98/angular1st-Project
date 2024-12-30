@@ -1,0 +1,16 @@
+<button *ngIf="(players$ | async) as players" class="button" (click) = "slice5players()">
+  <span class="material-symbols-outlined">crown</span>
+  Check the top 5 players with the most time played
+</button>
+
+<ul *ngIf="players$ | async as players; else noPlayers">
+  <app-player-card 
+    *ngFor="let player of players | sortByTime; let index = index" 
+    [player]="player"
+    [index]="players.indexOf(player)">
+  </app-player-card>
+</ul>
+
+<ng-template #noPlayers>
+  <p>No players found or still loading...</p>
+</ng-template>

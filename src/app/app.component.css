@@ -1,0 +1,39 @@
+nav a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px 60px;
+    margin: 0 10px;
+    background-color: lightgray;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+header {
+    background-color: orange;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid black;
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Johnny Allen",
+    "id": 5664,
+    "timePlayed": 0.4442,
+    "online": true,
+    "avatarUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+    "gamesPlayed": 50,
+    "gamesWon": 25,
+    "gamesLost": 25
+  },
+  {
+    "name": "Jacqueline Brewer",
+    "id": 3671,
+    "timePlayed": 0.811,
+    "online": false,
+    "avatarUrl": "https://randomuser.me/api/portraits/women/1.jpg",
+    "gamesPlayed": 60,
+    "gamesWon": 30,
+    "gamesLost": 30
+  },
+  {
+    "name": "Maria Greene",
+    "id": 7298,
+    "timePlayed": 0.9472,
+    "online": false,
+    "avatarUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+    "gamesPlayed": 80,
+    "gamesWon": 40,
+    "gamesLost": 40
+  },
+  {
+    "name": "Theresa Mitchell",
+    "id": 4570,
+    "timePlayed": 0.2588,
+    "online": true,
+    "avatarUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+    "gamesPlayed": 40,
+    "gamesWon": 20,
+    "gamesLost": 20
+  },
+  {
+    "name": "Michael Davis",
+    "id": 2396,
+    "timePlayed": 0.8000,
+    "online": false,
+    "avatarUrl": "https://randomuser.me/api/portraits/men/2.jpg",
+    "gamesPlayed": 100,
+    "gamesWon": 60,
+    "gamesLost": 40
+  },
+  {
+    "name": "Crystal Hansen",
+    "id": 5678,
+    "timePlayed": 0.3312,
+    "online": false,
+    "avatarUrl": "https://randomuser.me/api/portraits/men/3.jpg",
+    "gamesPlayed": 20,
+    "gamesWon": 10,
+    "gamesLost": 10
+  },
+  {
+    "name": "Gloria Cooper",
+    "id": 1128,
+    "timePlayed": 0.9176,
+    "online": true,
+    "avatarUrl": "https://randomuser.me/api/portraits/women/4.jpg",
+    "gamesPlayed": 120,
+    "gamesWon": 80,
+    "gamesLost": 40
+  },
+  {
+    "name": "Kelly Davis",
+    "id": 8408,
+    "timePlayed": 0.5840,
+    "online": false,
+    "avatarUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+    "gamesPlayed": 90,
+    "gamesWon": 45,
+    "gamesLost": 45
+  },
+  {
+    "name": "Ty Taylor",
+    "id": 3665,
+    "timePlayed": 0.7590,
+    "online": false,
+    "avatarUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+    "gamesPlayed": 70,
+    "gamesWon": 30,
+    "gamesLost": 40
+  },
+  {
+    "name": "Brooklyn Paquette",
+    "id": 4314,
+    "timePlayed": 0.2259,
+    "online": false,
+    "avatarUrl": "https://randomuser.me/api/portraits/men/5.jpg",
+    "gamesPlayed": 10,
+    "gamesWon": 5,
+    "gamesLost": 5
+  },
+  {
+    "name": "Sebastian Belanger",
+    "id": 9773,
+    "timePlayed": 0.3050,
+    "online": false,
+    "avatarUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+    "gamesPlayed": 60,
+    "gamesWon": 30,
+    "gamesLost": 30
+  },
+  {
+    "name": "Callie Cote",
+    "id": 2330,
+    "timePlayed": 0.370,
+    "online": true,
+    "avatarUrl": "https://randomuser.me/api/portraits/women/6.jpg",
+    "gamesPlayed": 50,
+    "gamesWon": 20,
+    "gamesLost": 30
+  },
+  {
+    "name": "Nate Levesque",
+    "id": 8800,
+    "timePlayed": 0.6234,
+    "online": true,
+    "avatarUrl": "https://randomuser.me/api/portraits/men/7.jpg",
+    "gamesPlayed": 110,
+    "gamesWon": 55,
+    "gamesLost": 55
+  },
+  {
+    "name": "Camden Chan",
+    "id": 3585,
+    "timePlayed": 0.8672,
+    "online": false,
+    "avatarUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+    "gamesPlayed": 85,
+    "gamesWon": 45,
+    "gamesLost": 40
+  },
+  {
+    "name": "Elliot Gauthier",
+    "id": 6778,
+    "timePlayed": 0.7607,
+    "online": true,
+    "avatarUrl": "https://randomuser.me/api/portraits/men/8.jpg",
+    "gamesPlayed": 90,
+    "gamesWon": 60,
+    "gamesLost": 30
+  },
+  {
+    "name": "Gavin Paquette",
+    "id": 7484,
+    "timePlayed": 0.2397,
+    "online": true,
+    "avatarUrl": "https://randomuser.me/api/portraits/men/9.jpg",
+    "gamesPlayed": 30,
+    "gamesWon": 15,
+    "gamesLost": 15
+  }
+]

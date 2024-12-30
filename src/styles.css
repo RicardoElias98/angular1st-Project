@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+/* Garantindo o layout correto para a tela inteira */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif; 
+
+}
+
+.button{
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 200px;
+  height: 50px;  
+  font-size: 13px;
+}
+
+.button:hover {
+  background-color: orange;
+  font-style: italic;
+  font-weight: bold;
+}
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
