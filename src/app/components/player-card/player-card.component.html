@@ -1,4 +1,4 @@
-<div *ngIf="index === 0" class="crown-icon-div">
+<div *ngIf="index === 0 && slice5playersIsActive" class="crown-icon-div">
   <img class="crown-icon" src="/assets/crown.png" alt="Crown" />
 </div>
 <mat-card class="player-card" appearance="outlined">
@@ -12,9 +12,14 @@
         <p>Games played: {{player?.gamesPlayed}}</p>
         <p>Wins: {{player?.gamesWon}}</p>
         <p>Losses: {{player?.gamesLost}}</p>
+        <p>Stars: {{player?.stars}}</p>
     </mat-card-content>
     <mat-card-actions>
       <button class="button-card"> Give a star </button>
-      <button class="button-card"> Send a msg </button>
+      <button class="button-card" [ngClass]="player?.active ? 'active' : 'inactive'" [disabled]="!player?.active"> Send a msg </button>
     </mat-card-actions>
+    <mat-card-footer class="card-footer" [ngClass]="player?.active ? 'active' : 'inactive'">
+      {{player?.active ? 'ONLINE' : 'OFFLINE'}}
+    </mat-card-footer>
+    
   </mat-card>

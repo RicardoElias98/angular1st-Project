@@ -7,7 +7,9 @@
     "avatarUrl": "https://randomuser.me/api/portraits/men/1.jpg",
     "gamesPlayed": 50,
     "gamesWon": 25,
-    "gamesLost": 25
+    "gamesLost": 25,
+    "stars": 3,
+    "active": true
   },
   {
     "name": "Jacqueline Brewer",
@@ -17,7 +19,9 @@
     "avatarUrl": "https://randomuser.me/api/portraits/women/1.jpg",
     "gamesPlayed": 60,
     "gamesWon": 30,
-    "gamesLost": 30
+    "gamesLost": 30,
+    "stars": 4,
+    "active": false
   },
   {
     "name": "Maria Greene",
@@ -27,7 +31,9 @@
     "avatarUrl": "https://randomuser.me/api/portraits/women/2.jpg",
     "gamesPlayed": 80,
     "gamesWon": 40,
-    "gamesLost": 40
+    "gamesLost": 40,
+    "stars": 5,
+    "active": false
   },
   {
     "name": "Theresa Mitchell",
@@ -37,17 +43,21 @@
     "avatarUrl": "https://randomuser.me/api/portraits/women/3.jpg",
     "gamesPlayed": 40,
     "gamesWon": 20,
-    "gamesLost": 20
+    "gamesLost": 20,
+    "stars": 2,
+    "active": true
   },
   {
     "name": "Michael Davis",
     "id": 2396,
-    "timePlayed": 0.8000,
+    "timePlayed": 0.8,
     "online": false,
     "avatarUrl": "https://randomuser.me/api/portraits/men/2.jpg",
     "gamesPlayed": 100,
     "gamesWon": 60,
-    "gamesLost": 40
+    "gamesLost": 40,
+    "stars": 5,
+    "active": false
   },
   {
     "name": "Crystal Hansen",
@@ -57,7 +67,9 @@
     "avatarUrl": "https://randomuser.me/api/portraits/men/3.jpg",
     "gamesPlayed": 20,
     "gamesWon": 10,
-    "gamesLost": 10
+    "gamesLost": 10,
+    "stars": 1,
+    "active": false
   },
   {
     "name": "Gloria Cooper",
@@ -67,27 +79,33 @@
     "avatarUrl": "https://randomuser.me/api/portraits/women/4.jpg",
     "gamesPlayed": 120,
     "gamesWon": 80,
-    "gamesLost": 40
+    "gamesLost": 40,
+    "stars": 5,
+    "active": true
   },
   {
     "name": "Kelly Davis",
     "id": 8408,
-    "timePlayed": 0.5840,
+    "timePlayed": 0.584,
     "online": false,
     "avatarUrl": "https://randomuser.me/api/portraits/women/5.jpg",
     "gamesPlayed": 90,
     "gamesWon": 45,
-    "gamesLost": 45
+    "gamesLost": 45,
+    "stars": 4,
+    "active": false
   },
   {
     "name": "Ty Taylor",
     "id": 3665,
-    "timePlayed": 0.7590,
+    "timePlayed": 0.759,
     "online": false,
     "avatarUrl": "https://randomuser.me/api/portraits/men/4.jpg",
     "gamesPlayed": 70,
     "gamesWon": 30,
-    "gamesLost": 40
+    "gamesLost": 40,
+    "stars": 3,
+    "active": false
   },
   {
     "name": "Brooklyn Paquette",
@@ -97,27 +115,33 @@
     "avatarUrl": "https://randomuser.me/api/portraits/men/5.jpg",
     "gamesPlayed": 10,
     "gamesWon": 5,
-    "gamesLost": 5
+    "gamesLost": 5,
+    "stars": 1,
+    "active": false
   },
   {
     "name": "Sebastian Belanger",
     "id": 9773,
-    "timePlayed": 0.3050,
+    "timePlayed": 0.305,
     "online": false,
     "avatarUrl": "https://randomuser.me/api/portraits/men/6.jpg",
     "gamesPlayed": 60,
     "gamesWon": 30,
-    "gamesLost": 30
+    "gamesLost": 30,
+    "stars": 3,
+    "active": false
   },
   {
     "name": "Callie Cote",
     "id": 2330,
-    "timePlayed": 0.370,
+    "timePlayed": 0.37,
     "online": true,
     "avatarUrl": "https://randomuser.me/api/portraits/women/6.jpg",
     "gamesPlayed": 50,
     "gamesWon": 20,
-    "gamesLost": 30
+    "gamesLost": 30,
+    "stars": 2,
+    "active": true
   },
   {
     "name": "Nate Levesque",
@@ -127,7 +151,9 @@
     "avatarUrl": "https://randomuser.me/api/portraits/men/7.jpg",
     "gamesPlayed": 110,
     "gamesWon": 55,
-    "gamesLost": 55
+    "gamesLost": 55,
+    "stars": 5,
+    "active": true
   },
   {
     "name": "Camden Chan",
@@ -137,7 +163,9 @@
     "avatarUrl": "https://randomuser.me/api/portraits/women/7.jpg",
     "gamesPlayed": 85,
     "gamesWon": 45,
-    "gamesLost": 40
+    "gamesLost": 40,
+    "stars": 4,
+    "active": false
   },
   {
     "name": "Elliot Gauthier",
@@ -147,7 +175,9 @@
     "avatarUrl": "https://randomuser.me/api/portraits/men/8.jpg",
     "gamesPlayed": 90,
     "gamesWon": 60,
-    "gamesLost": 30
+    "gamesLost": 30,
+    "stars": 5,
+    "active": true
   },
   {
     "name": "Gavin Paquette",
@@ -157,6 +187,8 @@
     "avatarUrl": "https://randomuser.me/api/portraits/men/9.jpg",
     "gamesPlayed": 30,
     "gamesWon": 15,
-    "gamesLost": 15
+    "gamesLost": 15,
+    "stars": 2,
+    "active": true
   }
 ]

@@ -1,13 +1,25 @@
-<button *ngIf="(players$ | async) as players" class="button" (click) = "slice5players()">
+<div class="buttons"><button *ngIf="(players$ | async) as players" class="button" (click) = "slice5players()">
   <span class="material-symbols-outlined">crown</span>
-  Check the top 5 players with the most time played
+  <p>Check the top 5 players with the most <span style="font-weight: bold;">time played</span> </p>
 </button>
+
+<button *ngIf="(players$ | async) as players" class="button" (click) = "slice5playersByStars()">
+  <span class="material-symbols-outlined">stars</span>
+  <p>Check the top 5 players with most <span style="font-weight: bold;">stars</span> </p>
+</button>
+
+<button *ngIf="(players$ | async) as players" class="button" (click) = "inactiveSlice5players()">
+  <span class="material-symbols-outlined">restart_alt</span>
+  <p> <span style="font-weight: bold;">Reset </span> info </p>
+</button>
+</div>
 
 <ul *ngIf="players$ | async as players; else noPlayers">
   <app-player-card 
-    *ngFor="let player of players | sortByTime; let index = index" 
+    *ngFor="let player of players; let index = index" 
     [player]="player"
-    [index]="players.indexOf(player)">
+    [index]="players.indexOf(player)"
+    [slice5playersIsActive]="slice5playersIsActive">
   </app-player-card>
 </ul>
 

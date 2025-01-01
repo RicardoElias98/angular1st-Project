@@ -40,9 +40,44 @@
     background-color: orange;
     font-style: italic;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.button-card.inactive:hover {
+    background-color: white; 
+    font-style: normal; 
+    font-weight: normal; 
+    cursor: not-allowed;
 }
 
 mat-card-actions{
     display: flex;
     justify-content: space-around;
 }
+
+mat-card:hover{
+    box-shadow: 0 0 20px 0 orange;
+}
+
+mat-card:hover .header-image{
+    transform: scale(1.5);
+}
+
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+    border: 2px beige solid;
+    height: 20px;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.card-footer.inactive {
+    background-color: red;
+}
+
+

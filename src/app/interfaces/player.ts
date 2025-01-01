@@ -7,4 +7,6 @@ export interface Player {
     gamesPlayed: number;
     gamesWon: number;
     gamesLost: number;
+    stars: number;
+    active: boolean;
 }
